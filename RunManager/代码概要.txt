@@ -1,0 +1,12 @@
+程序入口为AppApplication.java
+主界面程序为MainActivity.java
+轨迹记录程序为LocationActivity.java
+路径规划程序为RoutePlanningActivity.java
+
+MainActivity.java实现了计时器功能和空气质量查询功能，并设置了两个按钮跳转到LocationActivity.java和RoutePlanningActivity.java
+
+空气质量查询调用了JSON.java中getWebJson方法，解析URL并传到PM25类中，显示在textview中
+
+LocationActivity.java实现定位图层和画出途经点和轨迹的功能
+
+RoutePlanningActivity.java是百度DEMO抠下来的，具体我还没看
